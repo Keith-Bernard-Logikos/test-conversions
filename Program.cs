@@ -7,7 +7,6 @@ namespace TestConversions
     class Program
     {
         private static int TwoByteAddressLength = 6;
-
         private static string ConvertToReturnBytesValue(string memoryData, string displayUnits, string returnFormat)
         {
             // we expect two byte hex: this format '0x0000'
